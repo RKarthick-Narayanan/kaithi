@@ -178,16 +178,16 @@
         <button class="hamburger" aria-expanded="false" aria-controls="mobile-drawer" onclick="toggleMenu(this)">☰ Menu</button>
     </div>
     <nav id="mobile-drawer" class="drawer" aria-hidden="true">
-        <a href="#download" data-tab="download" onclick="navTo(event,'download')">⬇️ Download Kaithi Script</a>
         <a href="#installation" data-tab="installation" onclick="navTo(event,'installation')">📥 Installation</a>
+        <a href="#download" data-tab="download" onclick="navTo(event,'download')">⬇️ Download Kaithi Keyboard</a>
         <a href="#layout" data-tab="layout" onclick="navTo(event,'layout')">⌨️ Keyboard Layout</a>
         <a href="#about" data-tab="about" onclick="navTo(event,'about')">ℹ️ About Kaithi Keyboard</a>
     </nav>
 
     <!-- Desktop tabs (hidden on mobile) -->
     <div class="tabs" role="tablist" aria-label="Keyboard tabs">
-        <div class="tab active" role="tab" aria-selected="true" tabindex="0" onclick="showTab(event,'download')">⬇️ Download Kaithi Script</div>
         <div class="tab" role="tab" aria-selected="false" tabindex="0" onclick="showTab(event,'installation')">📥 Installation</div>
+         <div class="tab active" role="tab" aria-selected="true" tabindex="0" onclick="showTab(event,'download')">⬇️ Download Kaithi Keyboard</div>
         <div class="tab" role="tab" aria-selected="false" tabindex="0" onclick="showTab(event,'layout')">⌨️ Keyboard Layout</div>
         <div class="tab" role="tab" aria-selected="false" tabindex="0" onclick="showTab(event,'about')">ℹ️ About Kaithi Keyboard</div>
     </div>
